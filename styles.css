@@ -14,27 +14,35 @@ header a {
   display: flex;
   width: 1600px;
   height: 80px;
+
   border: 1px solid #ececec;
   background-color: #ffffff;
+}
+
+header .navtmail {
+  margin-left: auto;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
 }
 li {
   list-style-type: none;
 }
 /*======================== logo================*/
 .web {
+  display: flex;
   font-family: raleway, sans-serif;
   font-size: 26px;
   color: #212121;
-  margin-left: 215px;
-  margin-top: 24px;
 }
 .webfo {
   display: flex;
   font-family: raleway, sans-serif;
   font-size: 26px;
   color: #ffffff;
-  margin-left: 215px;
-  margin-top: 60px;
 }
 span {
   font-family: raleway, sans-serif;
@@ -45,14 +53,12 @@ span {
 /*=====================navigation=================*/
 .nav-one {
   display: flex;
-  margin-left: 93px;
-  margin-top: 32px;
+
   gap: 46px;
 }
 .navtmail {
   display: flex;
-  margin-left: 371px;
-  margin-top: 32px;
+
   gap: 50px;
 }
 nav ul li a {
@@ -92,7 +98,7 @@ nav ul li a:hover {
 }
 
 h1 {
-  display: block;
+  display: flex;
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
@@ -101,7 +107,7 @@ h1 {
   text-align: center;
 }
 .buton {
-  display: block;
+  display: inline-block;
   background-color: #2196f3;
   border-radius: 4px;
   width: 200px;
@@ -112,42 +118,44 @@ h1 {
   line-height: 1.87;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px ;
+  margin-top: 30px;
   cursor: pointer;
 }
 h3 {
   font-size: 14px;
   line-height: 1.14;
   padding-top: 20px;
-
 }
 p {
   font-size: 14px;
   line-height: 1.71;
-
 }
 .lorem {
   display: flex;
+  padding-left: 0;
   flex-wrap: wrap;
   flex-direction: column;
+  justify-content: center;
   width: 270px;
   height: 75px;
-  margin-left: 215px;
   gap: 30px;
- padding-top: 94px;
- padding-bottom: 117px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
 h2 {
   display: block;
   text-align: center;
   font-size: 36px;
   line-height: 1.16;
-  
 }
 .working-images {
   display: flex;
-  flex-direction:row;
-  margin: 50px 215px;
+  padding-left: 0;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 94px;
+
   gap: 30px;
 }
 .border-section {
@@ -158,11 +166,11 @@ h2 {
   margin-top: 50px;
 }
 .our-team {
-  margin-top:94px;
+  margin-top: 94px;
 }
 .works {
   display: flex;
-  margin-left: 215px;
+  justify-content: center;
   margin-top: 50px;
   gap: 30px;
 }
@@ -183,17 +191,16 @@ h2 {
   margin: 0;
   padding: 0;
 }
-.buttonportfolio{
-  display:flex;
+.buttonportfolio {
+  display: flex;
   justify-content: center;
   margin-top: 94px;
-
 }
-.button-portfolio-size{
+.button-portfolio-size {
   display: inline-block;
-  background-color:  #F5F4FA;
+  background-color: #f5f4fa;
   border: 1px;
-  color:#2f303a;
+  color: #2f303a;
   border-radius: 4px;
   text-align: center;
   font-size: 16px;
@@ -202,8 +209,8 @@ h2 {
   cursor: pointer;
   margin: 8px;
 }
-.button-portfolio-size:hover{
-  display:inline-block;
+.button-portfolio-size:hover {
+  display: inline-block;
   color: #ececec;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -216,21 +223,20 @@ h2 {
 .figureportfolio {
   display: flex;
   box-sizing: border-box;
+  flex-direction: row;
   flex-wrap: wrap;
-
-  margin: 50px 215px 94px;
+  justify-content: space-between;
   row-gap: 30px;
-  column-gap: 30px;
 }
 
 .borderfigure {
   display: inline-block;
   width: 370px;
   height: 404px;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
-.text-position{
+.text-position {
   padding-left: 30px;
 }
 
@@ -240,7 +246,7 @@ h2 {
   background: #2f303a;
   width: 1600px;
   height: 252px;
-  flex-direction: column; 
+  flex-direction: column;
 }
 .sity {
   display: flex;
@@ -265,8 +271,7 @@ ul li a {
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
-  padding-left:0;
-
+  padding-left: 0;
 }
 .footmail a:hover {
   color: #2196f3;
